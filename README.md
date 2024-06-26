@@ -22,12 +22,15 @@ pip install -r requirements.txt
 ```bash
 python static_obstacles.py
 ```
+![1](https://github.com/snktshrma/artificial-potential-field-path-planning/blob/main/assets/static_obstacles.gif)
 
 4. Run the script for dynamic obstacles:
 
 ```bash
 python dynamic_obstacles.py
 ```
+
+![2](https://github.com/snktshrma/artificial-potential-field-path-planning/blob/main/assets/dynamic_obstacles.gif)
 
 ## License
 

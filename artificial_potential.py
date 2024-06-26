@@ -1,4 +1,3 @@
-# /usr/bin/python
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -13,13 +12,13 @@ obstacles = np.array([[3, 3.5], [6, 7], [9, 9], [8, 4], [5, 5]])
 
 def attractive_force(position, goal):
     """
-    Calculate the attractive force towards the goal.
+    Calculate the attractive force towards the goal
     """
     return -k_att * (position - goal)
 
 def repulsive_force(position, obstacles, d0, k_rep):
     """
-    Calculate the repulsive force from obstacles.
+    Calculate the repulsive force from obstacles
     """
     force = np.zeros(2)
     for obs in obstacles:
